@@ -1,0 +1,147 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.nav
+{
+    width: 100%;
+    height: auto;
+   
+}
+.nav .logo
+{
+    height: 85px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav .logo h1
+{
+    font-size: 50px;
+    font-weight: 400;
+}
+.nav .nav_item
+{
+    height: 60px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.nav .nav_item .nav_item_container
+{
+    
+    height: 60px;
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.nav .nav_item .nav_item_container ul
+{
+    display: flex;
+}
+.nav .nav_item .nav_item_container ul li 
+{
+    list-style: none;
+}
+.nav .nav_item .nav_item_container ul li a
+{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px 0px 10px;
+}
+.nav .nav_item .nav_item_container ul li::before
+{
+    content: '';
+    display: block;
+    border-bottom:2px solid black ;
+    width: 0%;
+    margin: auto;
+    
+}
+.nav .nav_item .nav_item_container ul li:hover::after
+{
+    content: '';
+    display: block;
+    border-bottom:2px solid black ;
+    width: 100%;
+    transition: 0.5s;
+}
+.nav .nav_item .nav_item_container ul li::after
+{
+    content: '';
+    display: block;
+    border-bottom:2px solid black ;
+    width: 0%;
+    margin: auto;
+    transition: 0.5s;
+}
+.home
+{
+    height: auto;
+    width: 100%;
+    
+}
+.home .gallery_container1
+{
+    height: auto;
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.home .gallery_container1 .box1 , .box2 , .box3 , .box4
+{
+height: 400px;
+width: 420px;
+
+border-radius: 20px;
+
+}
+.home .gallery_container1 img
+{
+    height: 400px;
+    width: 420px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.home .gallery_container2
+{
+    
+    height: auto;
+    width: 94%;
+    margin:50px auto;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.home .gallery_container2 .box5 , .box6 , .box7 , .box8
+{
+height: 400px;
+width: 420px;
+background-color: aliceblue;
+border-radius: 20px;
+
+}
+.home .gallery_container2 img
+{
+    height: 400px;
+    width: 420px;
+    object-fit: cover;
+    border-radius: 20px;
+}
